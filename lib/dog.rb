@@ -12,7 +12,7 @@ class Dog
   end
 
   def initialize(breed)
-    if breed = nil
+    if !breed
       @breed = "Mutt"
     end
 
